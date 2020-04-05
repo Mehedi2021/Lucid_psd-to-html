@@ -1,0 +1,624 @@
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    /* Global Area CSS Start */
+      .global-title h2 {
+        font-size: 40px;
+        line-height: 46px;
+        margin: 0px;
+    }
+    /* Global Area CSS Start */
+    
+  /* Header Area CSS Start */
+    .header-section .bg-light {
+        padding: 20px 0px
+    }
+    .header-section .navbar-light .navbar-brand {
+        margin-left: 4%;
+    }
+    .header-section .navbar-light .navbar-toggler {
+        margin-right: 1.5%;
+    }
+    .header-section .navbar-nav {
+        text-align: right;
+    }
+    .header-section .navbar-nav .nav-item {
+        margin-right: 5%;
+    }
+    .header-section .navbar-toggler .fa-bars {
+        color: #008ed6;
+    }
+    .header-section .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+        background: url('../Images/underline.png') right bottom no-repeat;
+
+    }
+    .header-section .navbar-light .navbar-nav .nav-link:hover{
+        background: url('../Images/underline.png') right bottom no-repeat;
+    }
+  /* Header Area CSS End */
+
+  /* Banner Area CSS Start */
+    .banner {
+        padding: 50px 0px;
+    }
+    .banner-inner {
+        padding: 0px;
+    }
+    .banner-inner h4 {
+        text-align: center;
+    }
+    .banner-inner h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 18px 0px;
+    }
+    .banner-inner p {
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .banner-inner .btn-banner {
+        padding: 0px;
+        text-align: center;
+    }
+    .banner-inner .btn-banner li {
+        float: none;
+    }
+    .banner-inner .btn-banner .btn-info {
+        font-size: 14px;
+        line-height: 24px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .banner-inner .btn-banner .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+    }
+ /* Banner Area CSS End */
+
+
+ /* Feature Area CSS Start */
+    .feature-section {
+        padding: 50px 0px 50px;
+    }
+    .feature-section .global-title h2 {
+        font-size: 40px;
+        line-height: 46px;
+        margin: 0px;
+    }
+    .feature-section .featuer-inner {
+        padding: 30px 10px 0px;
+    }
+    .feature-section .featuer-inner p {
+        margin-bottom: 0px;
+    }
+ /* Feature Area CSS End */
+
+
+ /* About Long Area CSS Start */
+    .about-long {
+        padding: 50px 0px 30px;
+    }
+    .about-right .global-title {
+        text-align: center !important;
+    }
+    .about-right .global-title p {
+        text-align: justify !important;
+        margin: 10px 0px;
+    }
+/* About Long Area CSS End */
+
+/* About Short Area CSS Start */
+    .about-short {
+        width: 100%;
+        padding: 40px 0px 25px;
+    }
+    .about-short .global-title {
+        text-align: center !important;
+        margin: 0px;
+    }
+    .about-short .global-title p {
+        margin: 20px 0px 30px !important;
+    }
+/* About Short Area CSS End */
+
+
+/* Testimonial Area CSS Start */
+    .testimonial {
+        padding: 40px 70px;
+    }
+    .testimonial .global-title h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .testimonial .global-title h2 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .testimonial .owl-carousel .item {
+        padding: 25px 0px;
+    }
+    .testimonial .owl-carousel .item h5 {
+        text-align: center;
+    }
+    .testimonial .owl-carousel .item .media img {
+        margin-left: 20px;
+    }
+    .testimonial .owl-carousel .item .media .media-body h5 {
+        text-align: left;
+    }
+
+    .testimonial .owl-carousel .item .media .media-body {
+        padding-bottom: 0px;
+    }
+/* Testimonial Area CSS End */
+
+/* Eye-Catcher Area CSS Start */
+    .eye-catcher {
+        padding: 30px 0px 35px 0px;
+        text-align: center;
+    }
+    .eye-catcher h3 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .eye-catcher li {
+        float: none;
+    }
+    .eye-catcher .btn-info {
+        margin-left: 0px;
+    }
+    .eye-catcher .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .eye-catcher .btn-info {
+        font-size: 14px;
+        line-height: 24px;
+        margin-right: 0px;
+    }
+/* Eye-Catcher Area CSS End */
+
+/* Pricing Area CSS Start */
+    .pricing {
+        padding: 35px 0px 45px;
+    }
+    .pricing .global-title {
+        margin-bottom: 0px;
+    }
+    .pricing .card {
+        width: 18rem !important;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+/* Pricing Area CSS End */
+
+/* Contact Area CSS Start */
+    .contact {
+        width: 100%;
+        padding: 40px 0px 0px;
+    }
+    .contact .contact-inner {
+        margin-bottom: 40px;
+    }
+    .main-form {
+        margin-top: 0px;
+        padding: 50px 40px 35px;
+    }
+    .main-form .form-group .form-control {
+        padding: 7px 15px;
+    }
+    .main-form textarea.form-control {
+        height: 100px !important;
+    }
+    .text-right {
+        text-align: center!important;
+    }
+/* Contact Area CSS End */
+
+
+/* Footer Area CSS Start */
+    .footer p {
+        font-size: 15px;
+        font-weight: 700;
+        color: #444348;
+        text-transform: uppercase;
+    }
+/* Footer Area CSS End */
+}
+
+
+
+@media (min-width: 481px) and (max-width: 576px) {
+   
+    .header-section .navbar-light .navbar-brand {
+        margin-left: 4%;
+    }
+    .header-section .navbar-light .navbar-toggler {
+        margin-right: 1.5%;
+    }
+    .header-section .navbar-nav .nav-item {
+        margin-right: 3.5%;
+    }
+    .pricing .card {
+        width: 15rem !important;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+   
+}
+
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .header-section .navbar-nav .nav-item {
+        margin-right: 2.5%;
+    }
+    .pricing .card {
+        width: 15rem !important;
+        margin-top: 25px;
+    }
+}
+
+    
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Global Area CSS Start */
+      .global-title h2 {
+        font-size: 40px;
+        line-height: 46px;
+        margin: 0px;
+    }
+    /* Global Area CSS Start */
+  
+  /* Header Area CSS Start */
+  
+  
+    .header-section .navbar-nav {
+        text-align: right;
+    }
+   
+    .header-section .navbar-toggler .fa-bars {
+        color: #008ed6;
+    }
+    .header-section .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+        background: url('../Images/underline.png') right bottom no-repeat;
+
+    }
+    .header-section .navbar-light .navbar-nav .nav-link:hover{
+        background: url('../Images/underline.png') right bottom no-repeat;
+    }
+/* Header Area CSS End */
+
+/* Banner Area CSS Start */
+    .banner {
+        padding: 50px 0px;
+    }
+    .banner-inner {
+        padding: 0px;
+    }
+    .banner-inner h4 {
+        text-align: center;
+    }
+    .banner-inner h2 {
+        text-align: center;
+        font-size: 32px;
+        line-height: 42px;
+        margin: 18px 0px;
+    }
+    .banner-inner p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .banner-inner .btn-banner {
+        padding: 0px;
+        text-align: center;
+    }
+    .banner-inner .btn-banner li {
+        float: none;
+    }
+    .banner-inner .btn-banner .btn-info {
+        font-size: 14px;
+        line-height: 24px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .banner-inner .btn-banner .btn-primary {
+        font-size: 14px;
+        line-height: 24px;
+    }
+/* Banner Area CSS End */
+
+
+ /* Feature Area CSS Start */
+ .feature-section {
+    padding: 50px 0px 50px;
+}
+.feature-section .global-title h2 {
+    margin: 0px;
+}
+.feature-section .featuer-inner {
+    padding: 30px 10px 0px;
+}
+.feature-section .featuer-inner p {
+    margin-bottom: 0px;
+}
+/* Feature Area CSS End */
+
+/* About Long Area CSS Start */
+.about-long {
+    padding: 50px 0px 30px;
+}
+.about-right .global-title {
+    text-align: center !important;
+}
+.about-right .global-title p {
+    text-align: unset !important;
+}
+.about-btm {
+    margin-top: 30px;
+}
+/* About Long Area CSS End */
+
+
+/* About Short Area CSS Start */
+.about-short {
+    width: 100%;
+    padding: 50px 0px 25px;
+}
+.about-short .global-title {
+    text-align: center !important;
+    margin: 0px;
+}
+.about-short .global-title p {
+    margin: 20px 0px 30px !important;
+}
+/* About Short Area CSS End */
+
+
+/* Testimonial Area CSS Start */
+    .testimonial {
+        padding: 40px 70px;
+    }
+    .testimonial .global-title h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .testimonial .global-title h2 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .testimonial .owl-carousel .item {
+        padding: 25px 0px;
+    }
+    .testimonial .owl-carousel .item h5 {
+        text-align: center;
+    }
+    .testimonial .owl-carousel .item .media img {
+        margin-left: 70px;
+    }
+    .testimonial .owl-carousel .item .media .media-body h5 {
+        text-align: left;
+    }
+
+    .testimonial .owl-carousel .item .media .media-body {
+        padding-bottom: 0px;
+    }
+/* Testimonial Area CSS End */
+
+/* Eye-Catcher Area CSS Start */
+    .eye-catcher {
+        padding: 30px 0px 35px 0px;
+        text-align: center;
+    }
+    .eye-catcher h3 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .eye-catcher li {
+        float: left;
+    }
+    .eye-catcher li:last-child {
+        float: right;
+    }
+    .eye-catcher .btn-primary {
+       margin: 0px;
+    }
+    .eye-catcher .btn-info {
+       margin: 0px;
+    }
+/* Eye-Catcher Area CSS End */
+
+/* Pricing Area CSS Start */
+    .pricing {
+        padding: 35px 0px 45px;
+    }
+    .pricing .global-title {
+        margin-bottom: 0px;
+    }
+    .pricing .card {
+        width: 15rem !important;
+        margin-top: 25px;
+    }
+/* Pricing Area CSS End */
+
+/* Contact Area CSS Start */
+    .contact {
+        padding: 40px 0px 0px;
+    }
+    .main-form {
+        padding: 55px 50px 35px;
+    }
+    .main-form .form-group .form-control {
+        padding: 10px 15px;
+    }
+    .main-form textarea.form-control {
+        height: 125px !important;
+    }
+/* Contact Area CSS End */
+  
+}
+
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Global Area CSS Start */
+  .global-title h2 {
+    margin: 0px;
+}
+/* Global Area CSS Start */
+  
+    .header-section .navbar-nav {
+        text-align: right;
+    }
+
+    .header-section .navbar-toggler .fa-bars {
+        color: #008ed6;
+    }
+    .header-section .navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+        background: url('../Images/underline.png') right bottom no-repeat;
+
+    }
+    .header-section .navbar-light .navbar-nav .nav-link:hover{
+        background: url('../Images/underline.png') right bottom no-repeat;
+    }
+/* Header Area CSS End */
+
+/* Feature Area CSS Start */
+    .feature-section {
+        padding: 60px 0px 0px;
+    }
+    .featuer-inner h4 {
+        font-size: 21px;
+    }
+  
+/* Feature Area CSS End */
+
+/* About Long Area CSS Start */
+    .about-long {
+        width: 100%;
+        padding: 60px 0px 35px;
+    }
+     .about-long .global-title h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about-long .global-title h2 {
+        font-size: 26px;
+        line-height: 36px
+    }
+    .about-right .global-title p {
+        font-size: 13px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+/* About Long Area CSS End */
+
+/* About Short Area CSS Start */
+    .about-short .global-title {
+        margin-top: 60px;
+    }
+    .about-short .global-title h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about-short .global-title h2 {
+        font-size: 26px;
+        line-height: 36px
+    }
+      
+    .about-short .global-title p {
+        margin-top: 10px;
+    }
+/* About Short Area CSS End */
+
+/* Testimonial Area CSS Start */
+    .testimonial {
+        padding: 40px 70px;
+    }
+    .testimonial .global-title h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .testimonial .global-title h2 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .testimonial .owl-carousel .item {
+        padding: 25px 0px;
+    }
+    .testimonial .owl-carousel .item h5 {
+        text-align: center;
+    }
+    .testimonial .owl-carousel .item .media img {
+        margin-left: 100px;
+    }
+    .testimonial .owl-carousel .item .media .media-body h5 {
+        text-align: left;
+    }
+
+    .testimonial .owl-carousel .item .media .media-body {
+        padding-bottom: 0px;
+    }
+/* Testimonial Area CSS End */
+
+/* Eye-Catcher Area CSS Start */
+    .eye-catcher {
+        padding: 50px 0px 40px 0px;
+    
+    }
+    .eye-catcher li:last-child {
+        float: right;
+    }
+    .eye-catcher .btn-primary {
+        padding: 7px 10px;
+    }
+    .eye-catcher .btn-info {
+        padding: 7px 10px;
+        margin-left: 0px;
+    }
+/* Eye-Catcher Area CSS End */
+
+/* Pricing Area CSS Start */
+    .pricing {
+        padding: 50px 0px 60px;
+    }
+    .pricing .global-title {
+        margin-bottom: 0px;
+    }
+    .pricing .card {
+        width: 20rem !important;
+        margin-top: 25px;
+    }
+/* Pricing Area CSS End */
+
+/* Contact Area CSS Start */
+    .contact {
+        padding: 50px 0px 0px;
+    }
+
+/* Contact Area CSS End */
+  
+}
+

@@ -1,0 +1,571 @@
+/* Global CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #999999;
+}
+a, a:hover {
+    text-decoration: none;
+}
+li {
+ list-style: none;
+}
+.global-title {
+    width: 100%;
+}
+.global-title h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+.global-title h2 {
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0px 0px 20px;
+}
+
+/* Global CSS End */
+
+
+/* Header Area CSS Start */
+
+.header-section {
+    width: 100%;
+  
+    background: url('../Images/banner.jpg') center top no-repeat;
+    background-size: cover;
+}
+.header-section .bg-light {
+    padding: 25px 0px;
+    background-color: transparent!important;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link {
+    color: #fff;
+    background: url('../Images/underline.png') center bottom no-repeat;
+
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 0px 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+    background: url('../Images/underline.png') center bottom no-repeat;
+}
+/* Header Area CSS End */ 
+
+
+/* Banner Area CSS Start */
+.banner {
+    width: 100%;
+    padding: 60px 0px;
+}
+.banner-inner {
+    width: 100%;
+    padding: 40px 0px 60px 0px;
+}
+.banner-inner h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+.banner-inner h2 {
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #fff;
+    margin: 20px 0px;
+}
+.banner-inner p {
+    font-size: 15px;
+    line-height: 25px;
+
+}
+.btn-banner {
+    width: 100%;
+    padding: 25px 0px;
+}
+.btn-banner li {
+    float: left;
+}
+.btn-banner .btn-info {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    color: #ffff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 3px;
+    transition: 1s ease-in ;
+    margin-right: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-transition: 1s ease-in ;
+    -moz-transition: 1s ease-in ;
+    -ms-transition: 1s ease-in ;
+    -o-transition: 1s ease-in ;
+}
+.btn-banner .btn-info:hover {
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+.btn-banner .btn-primary {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    color: #ffff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    transition: 1s ease-in ;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-transition: 1s ease-in ;
+    -moz-transition: 1s ease-in ;
+    -ms-transition: 1s ease-in ;
+    -o-transition: 1s ease-in ;
+}
+.btn-banner .btn-primary:hover {
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+/* Banner Area CSS End */
+
+/* Feature Area CSS Start */
+.feature-section {
+    width: 100%;
+    padding: 80px 0px 0px;
+}
+.featuer-inner {
+    width: 100%;
+    padding: 50px 10px;
+}
+.featuer-inner .img-circle {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border: 1px solid #e2e2e2;
+    margin: 15px auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+.featuer-inner .img-circle:hover {
+    border: 1px solid #008ed6;
+}
+.feature-inner h4 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+.feature-inner p {
+    font-size: 14px;
+    line-height: 24px;
+}
+/* Feature Area CSS End */
+
+/* About-Long Area CSS Start */
+.about-long {
+    width: 100%;
+    padding: 80px 0px 0px;
+    border-top: 1px solid #eee;
+}
+.about-left {
+    width: 100%;
+}
+.about-left img {
+    width: 100%;
+}
+.about-right {
+    width: 100%;
+    margin-top: 30px;
+}
+.about-right .global-title p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.about-btm {
+    width: 100%;
+    margin-top: 20px;
+}
+.about-btm img {
+    margin-right: 20px;
+}
+.about-btm p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #1b1b1b;
+}
+/* About-Long Area CSS End */
+
+/* About-Short Area CSS Start */
+.about-short {
+    width: 100%;
+    padding: 40px 0px;
+    background: #f2f2f2;
+}
+.about-short .global-title {
+    width: 100%;
+    margin-top: 105px;
+}
+.about-short .global-title p {}
+.about-short .about-mobile {
+    width: 100%;
+}
+.about-short .about-mobile img {
+    width: 100%;
+}
+/* About-Short Area CSS End */
+
+/* Testimonial Area CSS Start */
+.testimonial {
+    width: 100%;
+    padding: 70px;
+    background: url('../Images/banner_2.jpg') center top no-repeat;
+    background-size: cover;
+
+}
+.testimonial .global-title h2 {
+    color: #fff;
+}
+.testimonial .owl-carousel .item {
+    padding: 50px 5px 0px 0px;
+}
+.testimonial .owl-carousel .item h5 {
+    font-size: 18px;
+    line-height: 28px;
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;
+}
+.testimonial .owl-carousel .item .media {
+    padding: 25px 0px 0px;
+}
+.testimonial .owl-carousel .item .media img {
+    width: 80px;
+}
+.testimonial .owl-carousel .item .media .media-body {
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+.testimonial .owl-carousel .item .media .media-body h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+}
+.testimonial .owl-carousel .item .media p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+/* Testimonial Area CSS End */
+
+/* Eye-Catcher Area CSS Start */
+.eye-catcher {
+    width: 100%;
+    padding: 40px 0px 35px 0px;
+    background: #15141a;
+}
+.eye-catcher h3 {
+    color: #fff;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.eye-catcher h3 strong {
+    font-weight: 600;
+}
+.eye-catcher li {
+    float: left;
+}
+.eye-catcher .btn-primary {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    color: #ffff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    transition: 1s ease-in ;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-transition: 1s ease-in ;
+    -moz-transition: 1s ease-in ;
+    -ms-transition: 1s ease-in ;
+    -o-transition: 1s ease-in ;
+}
+.eye-catcher .btn-primary:hover {
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+.eye-catcher .btn-info {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    padding: 12px 35px;
+    text-transform: uppercase;
+    color: #ffff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 3px;
+    transition: 1s ease-in ;
+    margin-left: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-transition: 1s ease-in ;
+    -moz-transition: 1s ease-in ;
+    -ms-transition: 1s ease-in ;
+    -o-transition: 1s ease-in ;
+}
+.eye-catcher .btn-info:hover {
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+/* Eye-Catcher Area CSS End */
+
+/* Pricing Area CSS Start */
+.pricing {
+    width: 100%;
+    padding: 60px 0px;
+}
+.pricing .global-title {
+    margin-bottom: 50px;
+}
+.pricing .card .card-header {
+    padding: 25px 0px;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+.pricing .card .card-body {
+    padding: 0px;
+}
+.pricing .card .card-body .price {
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 25px 0px;
+}
+.pricing .card .card-body .price .card-title {
+    margin-bottom: 5px;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.pricing .card .card-body .price .card-title sup {
+   font-size: 34px;
+}
+.price p {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 0px;
+}
+.pricing .card .card-body .price-inner {
+    width: 100%;
+    padding: 40px 20px 20px;
+}
+.pricing .card .card-body .price-inner .card-text {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.pricing .card .card-body .price-inner .card-text a {
+    color: #008ed6;
+    font-weight: 700;
+}
+.price-inner .btn-info {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.card:hover .price-inner .btn-info {
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+.card:hover .card-header {
+    color: #008ed6;
+}
+.card:hover .price {
+    background: #008ed6;
+    color: #fff;
+}
+.card:hover .price p {
+    color: #fff;
+}
+/* Pricing Area CSS End *
+
+/* Contact Area CSS Start */
+.contact {
+    width: 100%;
+    padding: 60px 0px 0px;
+    background: #ededed;
+}
+.contact .global-title {
+    margin-bottom: 50px;
+}
+.contact .contact-inner {
+    width: 100%;
+}
+.contact .contact-inner .contact_icon {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact .contact-inner p {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -3px;
+}
+
+.main-form {
+    width: 100%;
+    padding: 80px 50px 60px;
+    margin-top: 30px;
+    margin-bottom: -85px;
+    background: #15141a;
+}
+.main-form .form-group {
+
+}
+.main-form .form-group .form-control {
+    padding: 12px 15px;
+    height: auto;
+    background: transparent;
+    border: 1px solid #444348;
+    border-radius: 1px;
+}
+.main-form textarea.form-control {
+    height: 182px !important;
+}
+.main-form .form-group .btn-primary {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    padding: 10px 35px;
+    text-transform: #008ed6;
+    color: #ffff;
+    background: ;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    transition: 1s ease-in ;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-transition: 1s ease-in ;
+    -moz-transition: 1s ease-in ;
+    -ms-transition: 1s ease-in ;
+    -o-transition: 1s ease-in ;
+}
+.main-form .form-group .btn-primary:hover {
+    background: transparent;
+    color: #008ed6;
+    border: 1px solid #008ed6;
+}
+/* Contact Area CSS End */
+
+
+
+/* Map Area CSS Start */
+.map {
+    width: 100%;
+}
+/* Map Area CSS End */
+
+
+/* Footer Section Start */
+.footer {
+    width: 100%;
+    padding: 40px 0px 20px 0px;
+    background: #15141a;
+}
+.footer .icon {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.footer .icon .icon_gap {
+    margin-left: 20px;
+    color: #444348;
+}
+.footer .icon .icon_gap:hover {
+    color: #008ed6;
+}
+.footer p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #444348;
+    text-transform: uppercase;
+}
+/* Footer Section End */
+
+
+
+
+
+  
